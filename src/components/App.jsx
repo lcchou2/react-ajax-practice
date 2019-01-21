@@ -15,20 +15,13 @@ class App extends React.Component {
         <div className='first'>
           <h1>Server Response:</h1>
         </div>
-        <div className='second'>
-          <h1>Response Goes Here!</h1>
-        </div>
-        Name: <input type="text" name="name" />
-        Message: <input type="text" name="message" />
-
+        <form>
+          Name: <input type="text" name="name" />
+          Message: <input type="text" name="message" />
+          <input type='submit' value='SendMessage' />
+        </form>
 
       </div>
-
-
-
-
-
-
 
     )
   }
